@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    /*outline: 1px red solid; */
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 14px;
+    border-bottom: 1px dotted black;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 18px;
+
+}
+
+.navigation a {
+    text-decoration: none;
+    display: flex;
+}
+
+.navigation a:visited {
+    color: green;
+}
