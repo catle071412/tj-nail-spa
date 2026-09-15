@@ -1,0 +1,37 @@
+nav { /*default/on hero */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    height: 60px;
+
+    /*background-color: lightblue; */
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 18px;
+    
+    /*border-bottom: 1px dotted black; */
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+
+}
+
+nav a {
+    text-decoration: none;
+    display: flex;
+}
+
+nav a:visited {
+    color: white;
+}
