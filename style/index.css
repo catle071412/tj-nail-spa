@@ -11,6 +11,7 @@ body {
 
 .hero {
     width: 100vw;
+    max-width: 100%;
     height: 100vh;
     overflow: hidden;
 
@@ -135,6 +136,24 @@ body {
 
 .first-content {
     display: flex;
-    padding: 20px 40px;
+    padding: 30px 60px;
     justify-content: space-between;
+    align-items: center;
+}
+
+.first-content img {
+    width: 100%;
+    height: 400px;
+    
+    aspect-ratio: 2/1;
+
+    min-width: auto;
+    min-height: 50px;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+.first-content p {
+    margin-left: 100px;
 }
