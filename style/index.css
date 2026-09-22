@@ -134,7 +134,7 @@ body {
 }
 
 
-.first-content {
+.first-content, .second-content {
     display: flex;
     padding: 30px 60px;
     align-items: center;
@@ -158,9 +158,27 @@ body {
     object-position: center;
 }
 
-.first-content p {
+.first-content p, .second-content p {
     max-width: 560px;
     width: 100%;
     max-height: 300px;
     
+}
+
+
+
+.right-box {
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+
+}
+
+.right-box img {
+    width: 100%;
+
+    max-width: 300px;
+    max-height: 300px;
+
+    min-width: 50px;
 }
