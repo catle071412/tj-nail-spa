@@ -7,6 +7,12 @@ body {
     margin: 0;
 }
 
+@media (max-width: 620px) {
+    html {
+        font-size: 90%;
+    }
+}
+
 /* page one */
 
 .hero {
